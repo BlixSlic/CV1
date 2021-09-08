@@ -4,6 +4,7 @@
     background-color: #57CC99;
     width: 980px;
     padding: 10px 250px 0px 250px;
+    line-height: 2;
 
 }
 
@@ -11,47 +12,67 @@
 body{
     background-color: #FFEDDA;
     text-align: center;
-    padding-top: 25px;
     font-family: arial, monospace;
+    padding: 20px;
 }
 .cloud{
     position: relative;
-    left: 100px;
+    left: 400px;
 }
 .cloud2{
     position: relative;
-    right: 100px;
-    top: 200px;
+    right: 400px;
+    top: 450px;
 }
 .mountain{
         position: relative;
 }
 h1{
+    padding: 50px;
+    font-size: 5.562rem;
     font-family: 'Sacramento', cursive;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-}
-
-.work {
-    font-family: 'Lilita One', cursive;
+    font-size: 2.5rem;
+    color: #3DB2FF;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    color: #04009A;
 }
 
-        hr {
-            border-style: none;
-            border-top: 10px dotted #B2B1B9;
-            width: 90px;
-        }
+hr {
+    border-style: none;
+    border-top: 10px dotted #B2B1B9;
+    width: 90px;
+}
+
+.work {
+    position: relative;
+    bottom: 150px;
+    font-weight: normal;
+    color: #3E00FF;
+}
 
 .Abdallah-img {
-    padding: 10px;
+    padding: 25px;
 }
 
-p {
-    font-family: 'Bebas Neue', cursive;
+.skill-row {
+    font-size: 20px;
+    margin: 0px 230px 0px 30px;
+}
+
+.computer {
+    padding: 0px 0px 0px 400px;
+}
+
+.contact-me {
+    color: lightblue;
+    background-color: #3E00FF;
+    padding-bottom: 10px;
 }
